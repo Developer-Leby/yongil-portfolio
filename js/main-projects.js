@@ -51,9 +51,7 @@ function loadMainProejcts() {
                         </p>
                         <p class="mb-0">
                             <span class="mr-2">${project.date}</span>
-                        </p>           
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -387,6 +387,7 @@ window.onload = function() {
   })
   $(window).scroll(function(e){
     // scrollTop retains the value of the scroll top with the reference at the middle of the page
+	if ($(this).scrollTop() === 0) $('.nav-link').eq(0).addClass('active');	
     var scrollTop = $(this).scrollTop() + ($(window).height()/2);
     //cycle through the values in sections array
     for (var i in sections) {
