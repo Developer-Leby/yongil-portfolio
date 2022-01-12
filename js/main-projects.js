@@ -99,7 +99,7 @@ const mainProjects = [
         ],
     },
     {
-        title: '법원문서 OCR 뷰어 및 관리자 페이지 개발',
+        title: '법원문서 OCR 뷰어 / 관리자 페이지 개발',
         date: '2020.08.01 - 2020.11.30',
         company: '베리타스자산대부',
         thumbnail: 'images/projects/법원문서_OCR_뷰어_및_관리자_페이지_개발/3.png',
@@ -176,7 +176,7 @@ const mainProjects = [
         ],
     },
     {
-        title: 'AI 스피커 매니저 앱 API 서버 유지보수 개발',
+        title: 'AI 스피커 매니저 API 서버 유지보수 개발',
         date: '2019.01.01 - 2019.02.28',
         company: 'LG 유플러스',
         thumbnail: 'images/projects/AI_스피커_매니저_앱_API_서버_유지보수_개발/0.png',
@@ -186,7 +186,7 @@ const mainProjects = [
         ],
     },
     {
-        title: '라디오 스트리밍 실시간 코덱 변환 모듈 개발',
+        title: '라디오 스트리밍 코덱 변환 모듈 개발',
         date: '2018.10.01 - 2018.12.31',
         company: 'LG 유플러스',
         thumbnail: 'images/projects/라디오_스트리밍_실시간_코덱_변환_모듈_개발/1.png',
@@ -195,7 +195,7 @@ const mainProjects = [
         ],
     },
     {
-        title: '가족지킴이 앱 유지보수 및 신규 기능 개발',
+        title: '가족지킴이 앱 유지보수 / 신규 기능 개발',
         date: '2018.04.01 - 2018.09.30',
         company: 'LG 유플러스',
         thumbnail: 'images/projects/가족지킴이_앱_유지보수_및_신규_기능_개발/1.png',
@@ -261,17 +261,14 @@ const mainProjects = [
 ]
 
 function loadMainProejcts() {
-    let width = $("#education-section").width();
-    let imageWidth = (width - 18) / 3;
-
     let html = ''
     for (let project of mainProjects) {
         const template = `
             <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
-                <div class="blog-entry justify-content-end">
-                    <img class="block-20 border" src="${project.thumbnail}" style="width: 100%; height: 200px; object-fit: cover;" />
+                <div class="blog-entry justify-content-end" style="flex: 0 0 100%;">
+                    <img class="block-20 border align-items-stretch" src="${project.thumbnail}" style="width: 100%; height: 200px; object-fit: cover;" />
                     <div class="text mt-3 float-right d-block">                        
-                        <span class="text-dark font-weight-bold text-omission mb-0" style="width: ${imageWidth}px;" title="${project.title}">
+                        <span class="text-dark font-weight-bold mb-0" style="width: 100%; font-size: 14px;" title="${project.title}">
                             ${project.title}
                         </span>
                         <p class="mb-0">
