@@ -9708,10 +9708,3 @@ textarea.form-control {
   display : inline-block !important;
   margin: 6px 2px !important;
 }
-
-.text-omission {
-  display: block;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
