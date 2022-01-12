@@ -1,14 +1,21 @@
-const mainProjects = [
+const subProjects = [
     {
-        title: '디지털교과서 펜쓰기 모듈 고도화 개발',
-        date: '2021.11.01 - 2021.12.31',
-        company: '한국교육학술정보원',
-        thumbnail: 'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/4.png',
+        title: '비밀번호 뭐였지? 하이브리드 앱 포팅 개발',
+        date: '2021.07.01 - 2021.08.31',
+        company: '개인',
+        thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/4.png',
         images: [
-            'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/1.png',
-            'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/2.png',
-            'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/3.png',
-            'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/4.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/2.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/3.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/4.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/5.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/6.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/7.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/8.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/9.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/10.png',
+            'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/11.png',
         ],
     },
     {
@@ -260,12 +267,12 @@ const mainProjects = [
     },
 ]
 
-function loadMainProejcts() {
+function loadSideProejcts() {
     let width = $("#education-section").width();
     let imageWidth = (width - 18) / 3;
 
     let html = ''
-    for (let project of mainProjects) {
+    for (let project of subProjects) {
         const template = `
             <div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
                 <div class="blog-entry justify-content-end">
@@ -286,13 +293,9 @@ function loadMainProejcts() {
         `
         html += template
     }
-    document.getElementById('main-projects').innerHTML = html;
+    document.getElementById('sub-projects').innerHTML = html;
 }
 
 $(function() {
-    loadMainProejcts();
-
-    window.addEventListener('resize', () => {
-        loadMainProejcts();
-    })
+    loadSideProejcts();
 });
