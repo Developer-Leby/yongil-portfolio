@@ -1,6 +1,6 @@
 const subProjects = [
     {
-        title: '비밀번호 뭐였지? 하이브리드 앱 포팅 개발',
+        title: '비밀번호 뭐였지? 하이브리드 앱 개발',
         date: '2021.07.01 - 2021.08.31',
         company: '개인',
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
@@ -18,7 +18,7 @@ const subProjects = [
         ],
     },
     {
-        title: '비밀번호 뭐였지?',
+        title: '비밀번호 뭐였지? 네이티브 앱 개발',
         date: '2018.05.01 - 2018.08.31',
         company: '개인',
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',

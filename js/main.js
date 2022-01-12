@@ -72,7 +72,7 @@
 	    var href = $.attr(this, 'href');
 
 	    $('html, body').animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top - 70
+	        scrollTop: $($.attr(this, 'href')).offset().top - 80
 	    }, 500, function() {
 	    	// window.location.hash = href;
 	    });
@@ -277,8 +277,8 @@
 			event.preventDefault();
 
 			$('html,body').animate({
-				scrollTop: $('.goto-here').offset().top - 75
-			}, 500, 'easeInOutExpo');
+				scrollTop: $('#about-section').offset().top - 80
+			}, 500);//, 'easeInOutExpo');
 			
 			return false;
 		});
