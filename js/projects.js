@@ -27,10 +27,18 @@ function loadMainProejcts(type, projects) {
             else if (skill === 'mfc') skillHtml += MFC;
             else if (skill === 'swift') skillHtml += SWIFT;
             else if (skill === 'kotlin') skillHtml += KOTLIN;
+            else if (skill === 'realm') skillHtml += REALM
+            else if (skill === 'php') skillHtml += PHP
+            else if (skill === 'smtp') skillHtml += SMTP
+            else if (skill === 'win-api') skillHtml += WIN_API
+            else if (skill === 'swing') skillHtml += SWING
+            else if (skill === 'tcp') skillHtml += TCP
+            else if (skill === 'udp') skillHtml += UDP
+            else if (skill === 'c') skillHtml += C_LANGUAGE
         }
 
         const template = `
-            <div class="col-md-4 mb-4 d-flex">
+            <div class="col-md-4 pt-4 mb-4 d-flex">
                 <div class="blog-entry justify-content-end" style="flex: 0 0 100%;">
                     <img class="block-20 border align-items-stretch" src="${project.thumbnail}" style="width: 100%; height: 200px; object-fit: cover;" />
                     <div class="text mt-3 float-right d-block">                        

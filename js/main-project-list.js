@@ -41,7 +41,7 @@ const mainProjects = [
             'images/projects/가족지킴이_iOS_15_버전_이슈_대응_개발/1.png',
             'images/projects/가족지킴이_iOS_15_버전_이슈_대응_개발/2.png',
         ],
-        skill: ['objective-c'],
+        skill: ['objective-c', 'ios'],
     },
     {
         title: '중·고등 영어 전자저작물 뷰어 개발',
@@ -220,7 +220,7 @@ const mainProjects = [
             'images/projects/가족지킴이_앱_유지보수_및_신규_기능_개발/4.png',
             'images/projects/가족지킴이_앱_유지보수_및_신규_기능_개발/5.png',
         ],
-        skill: ['objective-c'],
+        skill: ['objective-c', 'ios'],
     },
     {
         title: '상담원 소프트폰 연동 프로그램 개발',

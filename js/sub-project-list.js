@@ -35,7 +35,7 @@ const subProjects = [
             'images/projects/비밀번호_뭐였지/8.png',
             'images/projects/비밀번호_뭐였지/9.png',
         ],
-        skill: ['objective-c', 'kotlin'],
+        skill: ['objective-c', 'realm', 'ios'],
     },
     {
         title: '보안카드 뭐였지?',
@@ -54,7 +54,7 @@ const subProjects = [
             'images/projects/보안카드_뭐였지/8.png',
             'images/projects/보안카드_뭐였지/9.png',
         ],
-        skill: [],
+        skill: ['objective-c', 'realm', 'ios'],
     },
     {
         title: '폴라로이드 일기',
@@ -67,7 +67,7 @@ const subProjects = [
             'images/projects/폴라로이드_일기/3.jpg',
             'images/projects/폴라로이드_일기/4.jpg',
         ],
-        skill: [],
+        skill: ['swift', 'realm', 'ios'],
     },
     {
         title: '다운로드 박스',
@@ -79,7 +79,7 @@ const subProjects = [
             'images/projects/다운로드_박스/2.jpg',
             'images/projects/다운로드_박스/3.jpg',
         ],
-        skill: [],
+        skill: ['swift', 'realm', 'ios'],
     },
     {
         title: '로그인 박스',
@@ -93,7 +93,7 @@ const subProjects = [
             'images/projects/로그인_박스/4.png',
             'images/projects/로그인_박스/5.png',
         ],
-        skill: [],
+        skill: ['swift', 'realm', 'ios'],
     },
     {
         title: '히든락',
@@ -119,7 +119,7 @@ const subProjects = [
             'images/projects/히든락/16.png',
             'images/projects/히든락/17.png',
         ],
-        skill: [],
+        skill: ['spring', 'android', 'ios'],
     },
     {
         title: '노트북지킴이',
@@ -139,7 +139,7 @@ const subProjects = [
             'images/projects/노트북지킴이/10.png',
             'images/projects/노트북지킴이/11.png',
         ],
-        skill: [],
+        skill: ['c#', 'php', 'smtp'],
     },
     {
         title: '위기탈출 USB',
@@ -151,7 +151,7 @@ const subProjects = [
             'images/projects/위기탈출_USB/2.png',
             'images/projects/위기탈출_USB/3.png',
         ],
-        skill: [],
+        skill: ['c#'],
     },
     {
         title: '플레이케이션',
@@ -165,7 +165,7 @@ const subProjects = [
             'images/projects/플레이케이션/4.png',
             'images/projects/플레이케이션/5.png',
         ],
-        skill: [],
+        skill: ['mfc'],
     },
     {
         title: '채팅 프로그램',
@@ -177,7 +177,7 @@ const subProjects = [
             'images/projects/채팅_프로그램/2.png',
             'images/projects/채팅_프로그램/3.png',
         ],
-        skill: [],
+        skill: ['java', 'tcp'],
     },
     {
         title: '선생님 몰래 춤추기',
@@ -189,7 +189,7 @@ const subProjects = [
             'images/projects/선생님_몰래_춤추기/2.png',
             'images/projects/선생님_몰래_춤추기/3.png',
         ],
-        skill: [],
+        skill: ['c++', 'win-api'],
     },
     {
         title: 'HQ Driver',
@@ -202,7 +202,7 @@ const subProjects = [
             'images/projects/HQ_Driver/3.png',
             'images/projects/HQ_Driver/4.png',
         ],
-        skill: [],
+        skill: ['c'],
     },
     {
         title: '용12 오목',
@@ -213,7 +213,7 @@ const subProjects = [
             'images/projects/용12_오목/1.png',
             'images/projects/용12_오목/2.png',
         ],
-        skill: [],
+        skill: ['c'],
     },
     {
         title: '용컴타자연습',
@@ -225,6 +225,6 @@ const subProjects = [
             'images/projects/용컴타자연습/2.png',
             'images/projects/용컴타자연습/3.png',
         ],
-        skill: [],
+        skill: ['c'],
     },
 ]
