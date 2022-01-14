@@ -2,7 +2,8 @@ const subProjects = [
     {
         title: '비밀번호 뭐였지? 하이브리드 앱 개발',
         date: '2021.07.01 - 2021.08.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
         images: [
             'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/0.png',
@@ -21,7 +22,8 @@ const subProjects = [
     {
         title: '비밀번호 뭐였지? 네이티브 앱 개발',
         date: '2018.05.01 - 2018.08.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',
         images: [
             'images/projects/비밀번호_뭐였지/0.png',
@@ -40,7 +42,8 @@ const subProjects = [
     {
         title: '보안카드 뭐였지?',
         date: '2018.02.01 - 2018.03.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/보안카드_뭐였지/3.png',
         images: [
             'images/projects/보안카드_뭐였지/0.png',
@@ -59,7 +62,8 @@ const subProjects = [
     {
         title: '폴라로이드 일기',
         date: '2017.10.01 - 2017.11.30',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/폴라로이드_일기/1.jpg',
         images: [
             'images/projects/폴라로이드_일기/1.jpg',
@@ -72,7 +76,8 @@ const subProjects = [
     {
         title: '다운로드 박스',
         date: '2017.10.01 - 2017.10.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/다운로드_박스/2.jpg',
         images: [
             'images/projects/다운로드_박스/1.jpg',
@@ -84,7 +89,8 @@ const subProjects = [
     {
         title: '로그인 박스',
         date: '2017.08.01 - 2017.09.30',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/로그인_박스/1.png',
         images: [
             'images/projects/로그인_박스/1.png',
@@ -98,7 +104,8 @@ const subProjects = [
     {
         title: '히든락',
         date: '2016.05.01 - 2016.10.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/히든락/3.jpg',
         images: [
             'images/projects/히든락/1.jpg',
@@ -124,7 +131,8 @@ const subProjects = [
     {
         title: '노트북지킴이',
         date: '2014.07.01 - 2014.09.30',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/노트북지킴이/1.png',
         images: [
             'images/projects/노트북지킴이/1.png',
@@ -144,7 +152,8 @@ const subProjects = [
     {
         title: '위기탈출 USB',
         date: '2014.03.01 - 2014.06.30',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/위기탈출_USB/1.png',
         images: [
             'images/projects/위기탈출_USB/1.png',
@@ -156,7 +165,8 @@ const subProjects = [
     {
         title: '플레이케이션',
         date: '2013.09.01 - 2013.10.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/플레이케이션/1.png',
         images: [
             'images/projects/플레이케이션/1.png',
@@ -170,7 +180,8 @@ const subProjects = [
     {
         title: '채팅 프로그램',
         date: '2013.06.01 - 2013.06.30',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/채팅_프로그램/1.png',
         images: [
             'images/projects/채팅_프로그램/1.png',
@@ -182,7 +193,8 @@ const subProjects = [
     {
         title: '선생님 몰래 춤추기',
         date: '2011.01.01 - 2011.02.28',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/선생님_몰래_춤추기/1.png',
         images: [
             'images/projects/선생님_몰래_춤추기/1.png',
@@ -194,7 +206,8 @@ const subProjects = [
     {
         title: 'HQ Driver',
         date: '2010.10.01 - 2010.10.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/HQ_Driver/2.png',
         images: [
             'images/projects/HQ_Driver/1.png',
@@ -207,7 +220,8 @@ const subProjects = [
     {
         title: '용12 오목',
         date: '2010.07.01 - 2010.07.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/용12_오목/2.png',
         images: [
             'images/projects/용12_오목/1.png',
@@ -218,7 +232,8 @@ const subProjects = [
     {
         title: '용컴타자연습',
         date: '2010.05.01 - 2010.05.31',
-        company: '개인',
+        order: '개인',
+        description: 'test',
         thumbnail: 'images/projects/용컴타자연습/1.png',
         images: [
             'images/projects/용컴타자연습/1.png',
