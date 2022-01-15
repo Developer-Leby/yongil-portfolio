@@ -2,6 +2,7 @@ class Project {
     constructor() {
         this.type = '';
         this.index = 0;
+        this.swiper = null;
     }
 
     loadProjects(type, projects) {
@@ -81,11 +82,33 @@ class Project {
                     <div class="modal-content">
                         <div class="modal-header">
                             <p class="modal-close mdi mdi-close text-dark h2" style="cursor: pointer;"></p>
-                            <p class="modal-title mt-4 font-weight-bold h4">${project.title}</p>
-                            <p class="text-primary mt-2 h5">${project.order}</p>
+                            <p class="modal-title mt-4 font-weight-bold h5">${project.title}</p>
+                            <span class="text-primary">${project.order}</span><br/>
                             <span class="date">${project.date}</span>                            
                         </div>
                         <div class="modal-body">
+                            <div class="description" style="background: #fff;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span class="text-dark font-weight-bold">설명</span><br/>
+                                        <p>${project.description}</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="text-dark font-weight-bold">담당 업무</span><br/>
+                                        <p>${project.description}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span class="text-dark font-weight-bold">사용 기술</span><br/>
+                                        <p>${project.description}</p>                                        
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="text-dark font-weight-bold">개발 환경</span><br/>
+                                        <p>${project.description}</p>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- Swiper -->
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
@@ -97,14 +120,6 @@ class Project {
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <p class="h5">설명</p>
-                            <p>${project.description}</p>
-                            <p class="h5">사용 기술</p>
-                            <p>${project.description}</p>
-                            <p class="h5">개발 환경</p>
-                            <p>${project.description}</p>
-                            <p class="h5">업무 내용</p>
-                            <p>${project.description}</p>
                         </div>
                     </div>
                     </div>
@@ -142,7 +157,11 @@ class Project {
         this.loadProjects('sub', subProjects);
         this.addEventListener();
 
-        var swiper = new Swiper(".mySwiper", {
+        this.swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: true // 쓸어 넘기거나 버튼 클릭 시 자동 슬라이드 정지.
+            },
             lazy: true,
             loop: true,
             pagination: {
@@ -167,42 +186,6 @@ class Project {
     }
 
     popupImage(url) {
-        `
-            <!-- Modal -->
-            <div class="modal fade" id="popupImage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <p class="modal-close mdi mdi-close text-dark h2" style="cursor: pointer;"></p>
-                        <p class="modal-title mt-4 font-weight-bold h4">${project.title}</p>
-                        <p class="text-primary mt-2 h5">${project.order}</p>
-                        <span class="date">${project.date}</span>                            
-                    </div>
-                    <div class="modal-body">
-                        <!-- Swiper -->
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                ${imageHTml}
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <p class="h5">설명</p>
-                        <p>${project.description}</p>
-                        <p class="h5">사용 기술</p>
-                        <p>${project.description}</p>
-                        <p class="h5">개발 환경</p>
-                        <p>${project.description}</p>
-                        <p class="h5">업무 내용</p>
-                        <p>${project.description}</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        `
     }
 
     // popupImage(url) {

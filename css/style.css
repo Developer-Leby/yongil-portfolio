@@ -4831,7 +4831,11 @@ a.close.disabled {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem; }
+}
+
+.description {
+  padding: 1rem;
+}
 
 .modal-footer {
   padding: 1rem;
@@ -9686,7 +9690,7 @@ textarea.form-control {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #e2e3e5;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -9734,19 +9738,26 @@ textarea.form-control {
   position: absolute;
   left: 50%;
   top: 50%;
-  cursor: pointer;
 }
 
 .swiper-button-next {
+  width: 35px;
+  height: 35px;
   background: url(../images/swiper-right.png) no-repeat;
   background-size: 100% auto;
   background-position: center;
+  -webkit-mask:url(../images/swiper-right.png) center/contain;
+  background: #2AC1BC;
 }
 
 .swiper-button-prev {
+  width: 35px;
+  height: 35px;
   background: url(../images/swiper-left.png) no-repeat;
   background-size: 100% auto;
   background-position: center;
+  -webkit-mask:url(../images/swiper-left.png) center/contain;
+  background: #2AC1BC;
 }
 
 .swiper-button-next::after,

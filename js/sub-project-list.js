@@ -3,7 +3,7 @@ const subProjects = [
         title: '비밀번호 뭐였지? 하이브리드 앱 개발',
         date: '2021.07.01 - 2021.08.31',
         order: '개인',
-        description: 'test',
+        description: '비밀번호 관리 앱',
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
         images: [
             'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/0.png',
@@ -23,10 +23,10 @@ const subProjects = [
         title: '비밀번호 뭐였지? 네이티브 앱 개발',
         date: '2018.05.01 - 2018.08.31',
         order: '개인',
-        description: 'test',
+        description: '비밀번호 관리 앱',
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',
-        images: [
-            'images/projects/비밀번호_뭐였지/0.png',
+        images: [            
+            'images/projects/비밀번호_뭐였지/0.jpg',
             'images/projects/비밀번호_뭐였지/1.png',
             'images/projects/비밀번호_뭐였지/2.png',
             'images/projects/비밀번호_뭐였지/3.png',
@@ -35,7 +35,6 @@ const subProjects = [
             'images/projects/비밀번호_뭐였지/6.png',
             'images/projects/비밀번호_뭐였지/7.png',
             'images/projects/비밀번호_뭐였지/8.png',
-            'images/projects/비밀번호_뭐였지/9.png',
         ],
         skill: ['objective-c', 'realm', 'ios'],
     },
