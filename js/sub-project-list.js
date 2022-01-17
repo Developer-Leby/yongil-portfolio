@@ -4,7 +4,8 @@ const subProjects = [
         date: '2021.07.01 - 2021.08.31',
         order: '개인',
         description: '비밀번호 관리 앱',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
         images: [
             'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/0.png',
@@ -27,7 +28,8 @@ const subProjects = [
         date: '2018.05.01 - 2018.08.31',
         order: '개인',
         description: '비밀번호 관리 앱',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',
         images: [            
             'images/projects/비밀번호_뭐였지/0.jpg',
@@ -49,7 +51,8 @@ const subProjects = [
         date: '2018.02.01 - 2018.03.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/보안카드_뭐였지/3.png',
         images: [
             'images/projects/보안카드_뭐였지/0.png',
@@ -72,7 +75,8 @@ const subProjects = [
         date: '2017.10.01 - 2017.11.30',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/폴라로이드_일기/1.jpg',
         images: [
             'images/projects/폴라로이드_일기/1.jpg',
@@ -89,7 +93,8 @@ const subProjects = [
         date: '2017.10.01 - 2017.10.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/다운로드_박스/2.jpg',
         images: [
             'images/projects/다운로드_박스/1.jpg',
@@ -105,7 +110,8 @@ const subProjects = [
         date: '2017.08.01 - 2017.09.30',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/로그인_박스/1.png',
         images: [
             'images/projects/로그인_박스/1.png',
@@ -113,6 +119,7 @@ const subProjects = [
             'images/projects/로그인_박스/3.png',
             'images/projects/로그인_박스/4.png',
             'images/projects/로그인_박스/5.png',
+            'images/projects/로그인_박스/6.png',
         ],
         skill: ['swift', 'realm', 'ios'],
         use: '',
@@ -123,7 +130,8 @@ const subProjects = [
         date: '2016.05.01 - 2016.10.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/히든락/3.jpg',
         images: [
             'images/projects/히든락/1.jpg',
@@ -153,7 +161,8 @@ const subProjects = [
         date: '2014.07.01 - 2014.09.30',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/노트북지킴이/1.png',
         images: [
             'images/projects/노트북지킴이/1.png',
@@ -177,7 +186,8 @@ const subProjects = [
         date: '2014.03.01 - 2014.06.30',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/위기탈출_USB/1.png',
         images: [
             'images/projects/위기탈출_USB/1.png',
@@ -193,7 +203,8 @@ const subProjects = [
         date: '2013.09.01 - 2013.10.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/플레이케이션/1.png',
         images: [
             'images/projects/플레이케이션/1.png',
@@ -211,7 +222,8 @@ const subProjects = [
         date: '2013.06.01 - 2013.06.30',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/채팅_프로그램/1.png',
         images: [
             'images/projects/채팅_프로그램/1.png',
@@ -227,7 +239,8 @@ const subProjects = [
         date: '2011.01.01 - 2011.02.28',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/선생님_몰래_춤추기/1.png',
         images: [
             'images/projects/선생님_몰래_춤추기/1.png',
@@ -243,7 +256,8 @@ const subProjects = [
         date: '2010.10.01 - 2010.10.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/HQ_Driver/2.png',
         images: [
             'images/projects/HQ_Driver/1.png',
@@ -260,7 +274,8 @@ const subProjects = [
         date: '2010.07.01 - 2010.07.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/용12_오목/2.png',
         images: [
             'images/projects/용12_오목/1.png',
@@ -275,7 +290,8 @@ const subProjects = [
         date: '2010.05.01 - 2010.05.31',
         order: '개인',
         description: 'test',
-        task: ``,
+        task: `
+        `,
         thumbnail: 'images/projects/용컴타자연습/1.png',
         images: [
             'images/projects/용컴타자연습/1.png',

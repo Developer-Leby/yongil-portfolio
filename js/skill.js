@@ -31,9 +31,34 @@ const MITEL = '<img src="https://img.shields.io/badge/Mitel_SDK-05122a?style=fla
 // db
 const MARIA_DB = '<img src="https://img.shields.io/badge/MariaDB-05122a?style=flat&logo=MariaDB"/>'
 const REALM = '<img src="https://img.shields.io/badge/Realm-05122a?style=flat&logo=Realm"/>'
+const ORACLE = '<img src="https://img.shields.io/badge/Oracle-05122a?style=flat&logo=Oracle"/>'
+
+// skill
+const MYBATIS = '<img src="https://img.shields.io/badge/Mybatis-05122a?style=flat"/>'
+const JPA = '<img src="https://img.shields.io/badge/JPA-05122a?style=flat"/>'
+const QUARTZ = '<img src="https://img.shields.io/badge/Quartz-05122a?style=flat"/>'
+
+// source
+const SVN = '<img src="https://img.shields.io/badge/SVN-05122a?style=flat&logo=Stripe"/>'
+const GIT = '<img src="https://img.shields.io/badge/GIT-05122a?style=flat&logo=Git"/>'
 
 // etc
 const DOCKER = '<img src="https://img.shields.io/badge/Docker-05122a?style=flat&logo=Docker"/>'
 const SMTP = '<img src="https://img.shields.io/badge/SMTP-05122a?style=flat&logo=Gmail"/>'
 const TCP = '<img src="https://img.shields.io/badge/TCP-05122a?style=flat&logo=Anchor"/>'
 const UDP = '<img src="https://img.shields.io/badge/UDP-05122a?style=flat&logo=Anchor"/>'
+const JENKINS = '<img src="https://img.shields.io/badge/Jenkins-05122a?style=flat&logo=Jenkins"/>'
+const VS2003 = '<img src="https://img.shields.io/badge/Visual_Studio_2003-05122a?style=flat&logo=Visual Studio"/>'
+const VS2010 = '<img src="https://img.shields.io/badge/Visual_Studio_2010-05122a?style=flat&logo=Visual Studio"/>'
+const VS2017 = '<img src="https://img.shields.io/badge/Visual_Studio_2017-05122a?style=flat&logo=Visual Studio"/>'
+const XCODE = '<img src="https://img.shields.io/badge/Xcode-05122a?style=flat&logo=Xcode"/>'
+
+// os
+const WINDOWS_SERVER_2016 = '<img src="https://img.shields.io/badge/Windows_Server_2016-05122a?style=flat&logo=Windows"/>'
+const WINDOWS_10 = '<img src="https://img.shields.io/badge/Windows_10-05122a?style=flat&logo=Windows"/>'
+const WINDOWS_7 = '<img src="https://img.shields.io/badge/Windows_7-05122a?style=flat&logo=Windows XP"/>'
+const CENTOS = '<img src="https://img.shields.io/badge/CentOS-05122a?style=flat&logo=CentOS"/>'
+const UNIX = '<img src="https://img.shields.io/badge/Unix-05122a?style=flat&logo=HP"/>'
+const MACOS = '<img src="https://img.shields.io/badge/macOS-05122a?style=flat&logo=Apple"/>'
+const AWS = '<img src="https://img.shields.io/badge/AWS-05122a?style=flat&logo=Amazon AWS"/>'
+

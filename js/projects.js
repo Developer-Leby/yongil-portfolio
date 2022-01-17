@@ -39,6 +39,22 @@ class Project {
             else if (skill === 'tcp') returnHtml += TCP;
             else if (skill === 'udp') returnHtml += UDP;
             else if (skill === 'c') returnHtml += C_LANGUAGE;
+            else if (skill === 'centos') returnHtml += CENTOS;
+            else if (skill === 'unix') returnHtml += UNIX;
+            else if (skill === 'windows_10') returnHtml += WINDOWS_10;
+            else if (skill === 'windows_7') returnHtml += WINDOWS_7;
+            else if (skill === 'unix') returnHtml += UNIX;
+            else if (skill === 'vs2003') returnHtml += VS2003;
+            else if (skill === 'vs2010') returnHtml += VS2010;
+            else if (skill === 'jenkins') returnHtml += JENKINS;
+            else if (skill === 'macos') returnHtml += MACOS;
+            else if (skill === 'svn') returnHtml += SVN;
+            else if (skill === 'git') returnHtml += GIT;
+            else if (skill === 'xcode') returnHtml += XCODE;
+            else if (skill === 'mybatis') returnHtml += MYBATIS;
+            else if (skill === 'windows_server_2016') returnHtml += WINDOWS_SERVER_2016;
+            else if (skill === 'quartz') returnHtml += QUARTZ;
+            else if (skill === 'aws') returnHtml += AWS;
         }
         return returnHtml;
     }
@@ -89,28 +105,28 @@ class Project {
                         <div class="modal-header">
                             <p class="modal-close mdi mdi-close text-dark h2" style="cursor: pointer;"></p>
                             <p class="modal-title mt-4 font-weight-bold h5">${project.title}</p>
+                            <span>${project.description}</span><br/>
                             <span class="text-primary">${project.order}</span><br/>
-                            <span class="date">${project.date}</span>                            
+                            <span class="date">${project.date}</span>
                         </div>
                         <div class="modal-body">
                             <div class="description" style="background: #fff;">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <span class="text-dark font-weight-bold">설명</span><br/>
-                                        <p>${project.description}</p>
+                                        <span class="text-primary font-weight-bold">담당 업무</span><br/>
+                                        <p class="text-dark">${project.task}</p>                                        
                                     </div>
                                     <div class="col-md-6">
-                                        <span class="text-dark font-weight-bold">담당 업무</span><br/>
-                                        <p>${project.task}</p>
+                                        
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <span class="text-dark font-weight-bold">사용 기술</span><br/>
+                                        <span class="text-primary font-weight-bold">사용 기술</span><br/>
                                         <p>${useSkillHtml}</p>                                        
                                     </div>
                                     <div class="col-md-6">
-                                        <span class="text-dark font-weight-bold">개발 환경</span><br/>
+                                        <span class="text-primary font-weight-bold">개발 환경</span><br/>
                                         <p>${environmentHtml}</p>
                                     </div>
                                 </div>
