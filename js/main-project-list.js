@@ -5,6 +5,11 @@ const mainProjects = [
         order: '한국교육학술정보원',
         description: '기존 펜쓰기 기능은 펜만 그려졌지만,',
         task: `
+            - 스티커 붙이기 기능 개발<br/>
+            - 스티커 회전 기능 개발<br/>
+            - 스티커 확대/축소 기능 개발<br/>
+            - 펜쓰기 썸네일 미리보기 기능 개발<br/>
+            - 스티커 아이콘 이동 처리
         `,
         thumbnail: 'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/4.png',
         images: [
@@ -14,15 +19,25 @@ const mainProjects = [
             'images/projects/디지털교과서_펜쓰기_모듈_고도화_개발/4.png',
         ],
         skill: ['javascript', 'jquery'],
-        use: [''],
-        environment: [''],
+        use: ['javascript', 'jquery', 'canvas', 'localstorage'],
+        environment: ['windows_10', 'git'],
     },
     {
         title: '디지털교과서 노트 기능 웹 포팅 개발',
         date: '2021.08.01 - 2021.10.31',
         order: '한국교육학술정보원',
-        description: 'test',
+        description: '',
         task: `
+            - gulp 빌드 환경 구축<br/>
+            - 노트 저장 및 다른 이름으로 저장 API 연동 기능 개발<br/>
+            - 노트 불러오기 API 연동 기능 개발<br/>
+            - 노트 삭제 API 연동 기능 개발<br/>
+            - 텍스트, 이미지, 스티커/배경 추가 기능 개발<br/>
+            - 노트 묶기 API 연동 기능 개발<br/>
+            - 노트 .epub 파일 바탕화면 저장 기능 개발<br/>
+            - 위두랑 내보내기 퍼블리싱 적용 및 API 연동 기능 개발<br/>
+            - 위두랑 서버 파일 업로드 API 연동 개발<br/>
+            - 어노테이션 저장, 조회 API 연동 개발
         `,
         thumbnail: 'images/projects/디지털교과서_노트_기능_웹_포팅_개발/8.png',
         images: [
@@ -39,8 +54,8 @@ const mainProjects = [
             'images/projects/디지털교과서_노트_기능_웹_포팅_개발/11.png',
         ],
         skill: ['spring boot', 'jquery', 'gulp'],
-        use: [''],
-        environment: [''],
+        use: ['spring boot', 'jquery'],
+        environment: ['windows_10', 'postman', 'gulp', 'git'],
     },
     {
         title: '가족지킴이 iOS 15 버전 이슈 대응 개발',
@@ -48,6 +63,11 @@ const mainProjects = [
         order: 'LG 유플러스',
         description: 'test',
         task: `
+            - iCloud Relay 테스트 지원<br/>
+            - iOS 15 업데이트 이후 앱 크랙 이슈 원인 파악<br/>
+            - LG U+ Fido Libray 크랙 이슈 테스트 지원<br/>
+            - PUSH APNS 테스트 지원<br/>
+            - 듀얼 유심 동작 테스트 지원 및 대응 개발
         `,
         thumbnail: 'images/projects/가족지킴이_iOS_15_버전_이슈_대응_개발/2.png',
         images: [
@@ -55,8 +75,8 @@ const mainProjects = [
             'images/projects/가족지킴이_iOS_15_버전_이슈_대응_개발/2.png',
         ],
         skill: ['objective-c', 'ios'],
-        use: [''],
-        environment: [''],
+        use: ['objective-c', 'ios'],
+        environment: ['macos', 'xcode', 'git'],
     },
     {
         title: '중·고등 영어 전자저작물 뷰어 개발',
@@ -64,6 +84,10 @@ const mainProjects = [
         order: '비상교육',
         description: 'test',
         task: `
+            - 차시 페이지 개발<br/>
+            - 퍼블리싱 적용 및 베리에이션 작업<br/>
+            - e-book 기능 포팅 개발<br/>
+            - 화면 scale 대응 개발
         `,
         thumbnail: 'images/projects/중·고등_영어_전자저작물_뷰어_개발/1.png',
         images: [
@@ -77,15 +101,18 @@ const mainProjects = [
             'images/projects/중·고등_영어_전자저작물_뷰어_개발/8.png',
         ],
         skill: ['javascript', 'jquery', 'c#'],
-        use: [''],
-        environment: [''],
+        use: ['javascript', 'jquery', 'c#'],
+        environment: ['windows_10', 'sqlite', 'git', 'vs2017'],
     },
     {
         title: '디지털교과서 화면 개선 및 기능 개발',
         date: '2021.02.08 - 2021.02.28',
         order: '한국교육학술정보원',
-        description: 'test',
+        description: '',
         task: `
+            - 신규 API 연동 개발 (마지막 본 교과서, 학습기록, 교과서/PDF 리스트)<br/>
+            - 교과서, 위두랑 자료보기, 나의 학습 기록 탭 기능 개발<br/>
+            - 플랫폼 화면 별 구성 대응 개발 (Web, Android, iPhone)
         `,
         thumbnail: 'images/projects/디지털교과서_화면_개선_및_기능_개발/2.png',
         images: [
@@ -95,16 +122,19 @@ const mainProjects = [
             'images/projects/디지털교과서_화면_개선_및_기능_개발/4.png',
             'images/projects/디지털교과서_화면_개선_및_기능_개발/5.png',
         ],
-        skill: ['spring', 'vue', 'javascript'],
-        use: [''],
-        environment: [''],
+        skill: ['spring', 'vue', 'jquery'],
+        use: ['spring', 'vue', 'javascript', 'jquery'],
+        environment: ['windows_10', 'git', 'jenkins'],
     },
     {
         title: 'Y클라우드 교과서 뷰어 웹 포팅 개발', 
         date: '2021.01.18 - 2021.02.18',
         order: 'YBM',
-        description: 'test',
+        description: '',
         task: `
+            - PC 프로그램(C#) → WEB 포팅 개발<br/>
+            - 자료 링크, 북마크, 인쇄 기능 웹 포팅 개발<br/>
+            - 판서 (그리기/쓰기) 기능 개발<br/>
         `,
         thumbnail: 'images/projects/Y클라우드_교과서_뷰어_웹_포팅_개발/1.png',
         images: [
@@ -122,30 +152,39 @@ const mainProjects = [
             'images/projects/Y클라우드_교과서_뷰어_웹_포팅_개발/12.png',
         ],
         skill: ['javascript', 'jquery'],
-        use: [''],
-        environment: [''],
+        use: ['javascript', 'jquery', 'indexeddb'],
+        environment: ['windows_10', 'git'],
     },
     {
         title: 'OCR SDK React-Native 포팅 개발',
         date: '2020.11.01 - 2020.11.30',
         order: '현대차 모션',
-        description: 'test',
+        description: 'Android, iOS 네이티브용 신분증/신용카드 SDK를 React-Native에서 동작하도록 적용하였습니다.',
         task: `
+            - Native SDK → React-Native 포팅 개발<br/>
+            - Bridge, Emitter 양방향 데이터 통신 처리
         `,
         thumbnail: 'images/projects/OCR_SDK_React-Native_포팅_개발/1.png',
         images: [
             'images/projects/OCR_SDK_React-Native_포팅_개발/1.png',
         ],
-        skill: ['react-native', 'android', 'ios'],
-        use: [''],
-        environment: [''],
+        skill: ['react-native', 'java', 'objective-c'],
+        use: ['react-native'],
+        environment: ['macos', 'android', 'ios', 'git'],
     },
     {
-        title: '법원문서 OCR 뷰어 / 관리자 페이지 개발',
+        title: '법원문서 OCR 뷰어, 관리자 페이지 개발',
         date: '2020.08.01 - 2020.11.30',
         order: '베리타스자산대부',
-        description: 'test',
+        description: '기존에 우편으로 전달된 법원 문서를 직접 타이핑하여 오타도 많고 시간도 오래 걸렸는데, OCR 인식 솔루션 도입 이후 문서를 자동으로 인식하고 인식된 결과를 확인 및 교정 작업을 진행하게 되어 빠르고 편리하게 많은 건을 처리할 수 있도록 개선되었습니다.',
         task: `
+            - OCR 엔진 C++ dll ⇒ Java JNI 인터페이스 연동 개발<br/>
+            - 관리자 페이지 및 OCR 교정 뷰어 기능 개발<br/>
+            - OCR 데이터 엑셀 export 기능 개발<br/>
+            - 카테고리, 필드, 그룹 등 데이터베이스 결과에 따른 동적 필드 개발<br/>
+            - WebSocket 사용으로 실시간 문서 상태 변경 처리 개발<br/>
+            - 멀티(MariaDB, MySQL) 데이터베이스 연동 개발<br/>
+            - 배치 문서 기간에 따른 후처리 개발
         `,
         thumbnail: 'images/projects/법원문서_OCR_뷰어_및_관리자_페이지_개발/3.png',
         images: [
@@ -160,9 +199,9 @@ const mainProjects = [
             'images/projects/법원문서_OCR_뷰어_및_관리자_페이지_개발/9.png',
             'images/projects/법원문서_OCR_뷰어_및_관리자_페이지_개발/10.png',
         ],
-        skill: ['spring boot', 'vue', 'javascript'],
-        use: [''],
-        environment: [''],
+        skill: ['spring boot', 'vue', 'jquery'],
+        use: ['spring boot', 'vue', 'jquery', 'bootstrap', 'mybatis', 'quartz'],
+        environment: ['windows_server_2016', 'mariadb', 'mssql', 'postman', 'git'],
     },
     {
         title: 'OCR 엔진 서버 유지보수 대응 개발',
@@ -170,10 +209,10 @@ const mainProjects = [
         order: 'SK 스토아',
         description: '상품 상세 페이지의 URL 전달 받아 이미지로 된 내용을 OCR 인식 진행, 키워드 추출해주는 API 제공해주는 솔루션입니다..',
         task: `
-            - OCR 엔진 인식 시간 Timeout 예외 처리 개발
-            - 운영 환경 엔진 서버 환경 구축 
-            - 성능 및 스트레스 테스트 지원
-            - 이슈 대응 개발
+            - OCR 엔진 인식 시간 Timeout 예외 처리 개발<br/>
+            - 운영 환경 엔진 서버 환경 구축<br/>
+            - 성능 및 스트레스 테스트 지원<br/>
+            - 이슈 대응 개발<br/>
             - API 개발 및 명세서 작성
         `,
         thumbnail: 'images/projects/OCR_엔진_서버_유지보수_대응_개발/5.png',
@@ -185,8 +224,8 @@ const mainProjects = [
             'images/projects/OCR_엔진_서버_유지보수_대응_개발/5.png',
         ],
         skill: ['c++', 'docker'],
-        use: [''],
-        environment: [''],
+        use: ['c++', 'tcp', 'select'],
+        environment: ['centos', 'mariadb', 'docker', 'postman'],
     },
     {
         title: '입점서류 OCR 인식 솔루션 구축',
@@ -210,13 +249,13 @@ const mainProjects = [
         ],
         skill: ['spring boot', 'mybatis', 'quartz'],
         use: ['spring boot', 'mybatis', 'quartz'],
-        environment: ['aws', 'mariadb'],
+        environment: ['aws', 'mariadb', 'postman'],
     },
     {
         title: '법원문서 OCR 인식 솔루션 구축',
         date: '2019.05.01 - 2019.09.30',
         order: 'KB 국민은행',
-        description: '전국에 있는 지점에 우편으로 전달된 법원 문서를 직접 타이핑하여 처리해서 불편했는데, OCR 인식 솔루션 도입 후 각 지점에 전달된 법원문서를 스캔 후 업로드 하면 OCR로 인식하여 자동으로 추출된 문서를 보고 교정을 진행하여 데이터를 처리하게 솔루션을 구축했습니다.',
+        description: '전국 각 지점에 우편으로 전달된 법원 문서는 직접 타이핑하여 오타도 많고 시간도 오래 걸렸는데, OCR 인식 솔루션 도입 이후 문서를 자동으로 인식하고 인식된 결과를 확인 및 교정 작업을 진행하게 되어 빠르고 편리하게 많은 건을 처리할 수 있도록 개선되었습니다.',
         task: `
             - OCR 엔진 C++ dll → Java JNI 인터페이스 연동 개발<br/>
             - 관리자 페이지 개발<br/>
@@ -240,8 +279,8 @@ const mainProjects = [
             'images/projects/법원문서_후선집중화_OCR_인식_솔루션_구축/13.png',
         ],
         skill: ['spring', 'javascript', 'jquery'],
-        use: ['spring', 'javascript', 'jquery', 'mybatis', 'quartz'],
-        environment: ['windows_server_2016', 'mariadb', 'svn', 'jenkins'],
+        use: ['spring', 'javascript', 'jquery', 'mybatis', 'quartz', 'bootstrap'],
+        environment: ['windows_server_2016', 'mariadb', 'svn', 'jenkins', 'postman'],
     },
     {
         title: '5G 서비스 위젯 관리자 페이지 개발',
@@ -262,7 +301,7 @@ const mainProjects = [
         ],
         skill: ['spring', 'javascript', 'jquery'],
         use: ['spring', 'javascript', 'jquery', 'mybatis'],
-        environment: ['centos', 'oracle', 'svn', 'jenkins'],
+        environment: ['centos', 'oracle', 'svn', 'jenkins', 'postman'],
     },
     {
         title: 'AI 스피커 매니저 앱 서버 API 개발',
@@ -277,9 +316,9 @@ const mainProjects = [
             'images/projects/AI_스피커_매니저_앱_API_서버_유지보수_개발/1.png',
             'images/projects/AI_스피커_매니저_앱_API_서버_유지보수_개발/2.png',
         ],
-        skill: ['spring'],
+        skill: ['spring', 'postman'],
         use: ['spring', 'mybatis'],
-        environment: ['windows_10', 'mariadb', 'svn'],
+        environment: ['windows_10', 'mariadb', 'postman', 'svn'],
     },
     {
         title: '라디오 스트리밍 코덱 변환 모듈 개발',
@@ -288,8 +327,7 @@ const mainProjects = [
         description: '여러 개의 라디오 채널에 대한 실시간 스트리밍 데이터 코덱 변환 후 재송신 해주는 모듈입니다.',
         task: `
             - 스트리밍 데이터 코덱 변환 모듈 개발 (.mp3)<br/>
-            - 다중 채널에 대한 멀티쓰레드 처리<br/>
-            　(SBS Love FM, SBS power FM, CBS, TBS, 아리랑TV)
+            - 다중 채널에 대한 멀티쓰레드 처리 (SBS Love FM, SBS power FM, CBS, TBS, 아리랑TV)<br/>
         `,
         thumbnail: 'images/projects/라디오 스트리밍 코덱 변환 모듈 개발/1.png',
         images: [
@@ -364,7 +402,7 @@ const mainProjects = [
         ],
         skill: ['mfc', 'c++', 'ffmpeg'],
         use: ['mfc', 'c++', 'ffmpeg', 'tcp', 'udp'],
-        environment: ['windows_7', 'unix', 'vs2010'],
+        environment: ['windows_7', 'unix', 'vs2010', 'wireshark'],
     },
     {
         title: '비대면 실명인증 서비스 구축',
@@ -383,7 +421,7 @@ const mainProjects = [
         ],
         skill: ['mfc', 'c++', 'ffmpeg'],
         use: ['mfc', 'c++', 'ffmpeg', 'tcp', 'udp'],
-        environment: ['windows_7', 'unix', 'vs2010'],
+        environment: ['windows_7', 'unix', 'vs2010', 'wireshark'],
     },
     {
         title: '비대면 실명인증 서비스 구축',
@@ -401,7 +439,7 @@ const mainProjects = [
         ],
         skill: ['mfc', 'c++', 'ffmpeg'],
         use: ['mfc', 'c++', 'ffmpeg', 'tcp', 'udp'],
-        environment: ['windows_7', 'unix', 'vs2003'],
+        environment: ['windows_7', 'unix', 'vs2003', 'wireshark'],
     },
 ]
 

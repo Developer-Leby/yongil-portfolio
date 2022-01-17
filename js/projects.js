@@ -46,6 +46,7 @@ class Project {
             else if (skill === 'unix') returnHtml += UNIX;
             else if (skill === 'vs2003') returnHtml += VS2003;
             else if (skill === 'vs2010') returnHtml += VS2010;
+            else if (skill === 'vs2017') returnHtml += VS2017;
             else if (skill === 'jenkins') returnHtml += JENKINS;
             else if (skill === 'macos') returnHtml += MACOS;
             else if (skill === 'svn') returnHtml += SVN;
@@ -55,6 +56,21 @@ class Project {
             else if (skill === 'windows_server_2016') returnHtml += WINDOWS_SERVER_2016;
             else if (skill === 'quartz') returnHtml += QUARTZ;
             else if (skill === 'aws') returnHtml += AWS;
+            else if (skill === 'select') returnHtml += SELECT;
+            else if (skill === 'websocket') returnHtml += WEBSOCKET;
+            else if (skill === 'mssql') returnHtml += MSSQL;
+            else if (skill === 'bootstrap') returnHtml += BOOTSTRAP;
+            else if (skill === 'indexeddb') returnHtml += INDEXED_DB;
+            else if (skill === 'sqlite') returnHtml += SQLITE;
+            else if (skill === 'canvas') returnHtml += CANVAS;
+            else if (skill === 'localstorage') returnHtml += LOCALSTORAGE;
+            else if (skill === 'vuetify') returnHtml += VUETIFY;
+            else if (skill === 'postman') returnHtml += POSTMAN;
+            else if (skill === 'wireshark') returnHtml += WIRESHARK;
+            else if (skill === 'firebase') returnHtml += FIREBASE;            
+            else if (skill === 'icloud') returnHtml += ICLOUD;    
+            else if (skill === 'aes256') returnHtml += AES256;
+            else if (skill === 'core_image') returnHtml += CORE_IMAGE;                
         }
         return returnHtml;
     }
@@ -82,9 +98,9 @@ class Project {
                     <div class="blog-entry justify-content-end" style="flex: 0 0 100%;">
                         <img class="block-20 border align-items-stretch" src="${project.thumbnail}" style="width: 100%; height: 200px; object-fit: cover;" />
                         <div class="text mt-3 float-right d-block">                        
-                            <span class="text-dark font-weight-bold mb-0" style="width: 100%; font-size: 14px;" title="${project.title}">
+                            <p class="text-dark font-weight-bold mb-0" style="width: 100%; title="${project.title}">
                                 ${project.title}
-                            </span>
+                            </p>
                             <p class="mb-0">
                                 <span class="text-primary">${project.order}</span>
                             </p>
@@ -105,27 +121,26 @@ class Project {
                         <div class="modal-header">
                             <p class="modal-close mdi mdi-close text-dark h2" style="cursor: pointer;"></p>
                             <p class="modal-title mt-4 font-weight-bold h5">${project.title}</p>
-                            <span>${project.description}</span><br/>
+                            <!--<span>${project.description}</span><br/>-->
                             <span class="text-primary">${project.order}</span><br/>
                             <span class="date">${project.date}</span>
                         </div>
                         <div class="modal-body">
                             <div class="description" style="background: #fff;">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <span class="text-primary font-weight-bold">담당 업무</span><br/>
                                         <p class="text-dark">${project.task}</p>                                        
                                     </div>
-                                    <div class="col-md-6">
-                                        
-                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <span class="text-primary font-weight-bold">사용 기술</span><br/>
                                         <p>${useSkillHtml}</p>                                        
                                     </div>
-                                    <div class="col-md-6">
+                                </div>
+                                <div class="row>
+                                    <div class="col-md-12">
                                         <span class="text-primary font-weight-bold">개발 환경</span><br/>
                                         <p>${environmentHtml}</p>
                                     </div>
@@ -140,8 +155,6 @@ class Project {
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                             </div>
-                        </div>
-                        <div class="modal-footer">
                         </div>
                     </div>
                     </div>

@@ -3,8 +3,13 @@ const subProjects = [
         title: '비밀번호 뭐였지? 하이브리드 앱 개발',
         date: '2021.07.01 - 2021.08.31',
         order: '개인',
-        description: '비밀번호 관리 앱',
+        description: '',
         task: `
+            - Vue Router를 사용하여 SPA 개발<br/>
+            - Vue Store를 활용한 컴포넌트 상태 처리<br/>
+            - Android, iOS WebView 연동 개발<br/>
+            - 잠금화면 별도 네이티브 화면 개발<br/>
+            - Vuetify를 이용한 화면 퍼블리싱 개발
         `,
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
         images: [
@@ -19,16 +24,19 @@ const subProjects = [
             'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/8.png',
             'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/9.png',
         ],
-        skill: ['vue', 'swift', 'kotlin'],
-        use: '',
-        environment: '',
+        skill: ['vue', 'vuetify', 'swift', 'kotlin'],
+        use: ['vue', 'vuetify', 'swift', 'kotlin', 'firebase', 'aes256'],
+        environment: ['macos', 'git', 'android', 'ios'],
     },
     {
         title: '비밀번호 뭐였지? 네이티브 앱 개발',
         date: '2018.05.01 - 2018.08.31',
         order: '개인',
-        description: '비밀번호 관리 앱',
+        description: '',
         task: `
+            - 네이티브 화면 오토레이아웃 개발<br/>
+            - 인앱 연동 개발<br/>
+            - Realm 데이터베이스 연동 개발
         `,
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',
         images: [            
@@ -42,16 +50,19 @@ const subProjects = [
             'images/projects/비밀번호_뭐였지/7.png',
             'images/projects/비밀번호_뭐였지/8.png',
         ],
-        skill: ['objective-c', 'realm', 'ios'],
-        use: '',
-        environment: '',
+        skill: ['objective-c', 'realm', 'icloud'],
+        use: ['objective-c', 'realm', 'icloud', 'aes256'],
+        environment: ['macos', 'git', 'android', 'ios'],
     },
     {
         title: '보안카드 뭐였지?',
         date: '2018.02.01 - 2018.03.31',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - 네이티브 화면 오토레이아웃 개발<br/>
+            - 인앱 연동 개발<br/>
+            - Realm 데이터베이스 연동 개발
         `,
         thumbnail: 'images/projects/보안카드_뭐였지/3.png',
         images: [
@@ -66,9 +77,9 @@ const subProjects = [
             'images/projects/보안카드_뭐였지/8.png',
             'images/projects/보안카드_뭐였지/9.png',
         ],
-        skill: ['objective-c', 'realm', 'ios'],
-        use: '',
-        environment: '',
+        skill: ['objective-c', 'realm', 'icloud'],
+        use: ['objective-c', 'realm', 'icloud'],
+        environment: ['macos', 'git', 'ios'],
     },
     {
         title: '폴라로이드 일기',
@@ -84,9 +95,9 @@ const subProjects = [
             'images/projects/폴라로이드_일기/3.jpg',
             'images/projects/폴라로이드_일기/4.jpg',
         ],
-        skill: ['swift', 'realm', 'ios'],
-        use: '',
-        environment: '',
+        skill: ['swift', 'realm'],
+        use: ['swift', 'realm', 'core_image'],
+        environment: ['macos', 'git', 'ios'],
     },
     {
         title: '다운로드 박스',
@@ -102,8 +113,8 @@ const subProjects = [
             'images/projects/다운로드_박스/3.jpg',
         ],
         skill: ['swift', 'realm', 'ios'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '로그인 박스',
@@ -122,8 +133,8 @@ const subProjects = [
             'images/projects/로그인_박스/6.png',
         ],
         skill: ['swift', 'realm', 'ios'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '히든락',
@@ -153,8 +164,8 @@ const subProjects = [
             'images/projects/히든락/17.png',
         ],
         skill: ['spring', 'android', 'ios'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '노트북지킴이',
@@ -178,8 +189,8 @@ const subProjects = [
             'images/projects/노트북지킴이/11.png',
         ],
         skill: ['c#', 'php', 'smtp'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '위기탈출 USB',
@@ -195,8 +206,8 @@ const subProjects = [
             'images/projects/위기탈출_USB/3.png',
         ],
         skill: ['c#'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '플레이케이션',
@@ -214,8 +225,8 @@ const subProjects = [
             'images/projects/플레이케이션/5.png',
         ],
         skill: ['mfc'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '채팅 프로그램',
@@ -231,8 +242,8 @@ const subProjects = [
             'images/projects/채팅_프로그램/3.png',
         ],
         skill: ['java', 'tcp'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '선생님 몰래 춤추기',
@@ -248,8 +259,8 @@ const subProjects = [
             'images/projects/선생님_몰래_춤추기/3.png',
         ],
         skill: ['c++', 'win-api'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: 'HQ Driver',
@@ -266,8 +277,8 @@ const subProjects = [
             'images/projects/HQ_Driver/4.png',
         ],
         skill: ['c'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '용12 오목',
@@ -282,8 +293,8 @@ const subProjects = [
             'images/projects/용12_오목/2.png',
         ],
         skill: ['c'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
     {
         title: '용컴타자연습',
@@ -299,7 +310,7 @@ const subProjects = [
             'images/projects/용컴타자연습/3.png',
         ],
         skill: ['c'],
-        use: '',
-        environment: '',
+        use: [''],
+        environment: [''],
     },
 ]
