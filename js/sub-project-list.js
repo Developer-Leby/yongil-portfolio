@@ -9,7 +9,10 @@ const subProjects = [
             - Vue Store를 활용한 컴포넌트 상태 처리<br/>
             - Android, iOS WebView 연동 개발<br/>
             - 잠금화면 별도 네이티브 화면 개발<br/>
-            - Vuetify를 이용한 화면 퍼블리싱 개발
+            - Vuetify를 이용한 화면 퍼블리싱 개발<br/>
+            - 인앱 연동 개발<br/>
+            - 애드몹 광고 연동 개발 <br/>
+            - 앱 스토어 배포 완료
         `,
         thumbnail: 'images/projects/비밀번호_뭐였지_하이브리드_앱_포팅_개발/1.png',
         images: [
@@ -26,7 +29,7 @@ const subProjects = [
         ],
         skill: ['vue', 'vuetify', 'swift', 'kotlin'],
         use: ['vue', 'vuetify', 'swift', 'kotlin', 'firebase', 'aes256'],
-        environment: ['macos', 'git', 'android', 'ios'],
+        environment: ['macos', 'xcode', 'git', 'android', 'ios'],
     },
     {
         title: '비밀번호 뭐였지? 네이티브 앱 개발',
@@ -36,7 +39,9 @@ const subProjects = [
         task: `
             - 네이티브 화면 오토레이아웃 개발<br/>
             - 인앱 연동 개발<br/>
-            - Realm 데이터베이스 연동 개발
+            - 애드몹 광고 연동 개발 <br/>
+            - Realm 데이터베이스 연동 개발<br/>
+            - 앱 스토어 배포 완료
         `,
         thumbnail: 'images/projects/비밀번호_뭐였지/1.png',
         images: [            
@@ -52,7 +57,7 @@ const subProjects = [
         ],
         skill: ['objective-c', 'realm', 'icloud'],
         use: ['objective-c', 'realm', 'icloud', 'aes256'],
-        environment: ['macos', 'git', 'android', 'ios'],
+        environment: ['macos', 'xcode', 'git', 'android', 'ios'],
     },
     {
         title: '보안카드 뭐였지?',
@@ -62,7 +67,9 @@ const subProjects = [
         task: `
             - 네이티브 화면 오토레이아웃 개발<br/>
             - 인앱 연동 개발<br/>
-            - Realm 데이터베이스 연동 개발
+            - 애드몹 광고 연동 개발 <br/>
+            - Realm 데이터베이스 연동 개발<br/>
+            - 앱 스토어 배포 완료
         `,
         thumbnail: 'images/projects/보안카드_뭐였지/3.png',
         images: [
@@ -79,14 +86,17 @@ const subProjects = [
         ],
         skill: ['objective-c', 'realm', 'icloud'],
         use: ['objective-c', 'realm', 'icloud'],
-        environment: ['macos', 'git', 'ios'],
+        environment: ['macos', 'xcode', 'git', 'ios'],
     },
     {
         title: '폴라로이드 일기',
         date: '2017.10.01 - 2017.11.30',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - 네이티브 화면 오토레이아웃 개발<br/>
+            - Core Image 사용하여 사진 필터 효과 적용<br/>
+            - Realm 데이터베이스 연동 개발<br/>
         `,
         thumbnail: 'images/projects/폴라로이드_일기/1.jpg',
         images: [
@@ -97,14 +107,17 @@ const subProjects = [
         ],
         skill: ['swift', 'realm'],
         use: ['swift', 'realm', 'core_image'],
-        environment: ['macos', 'git', 'ios'],
+        environment: ['macos', 'xcode', 'git', 'ios'],
     },
     {
         title: '다운로드 박스',
         date: '2017.10.01 - 2017.10.31',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - URL 스크래핑 및 파싱, 이미지 다운로드<br/>
+            - KeyChain 앱 재설치 여부 확인<br/>
+            - iOS 정책에 따른 리젝
         `,
         thumbnail: 'images/projects/다운로드_박스/2.jpg',
         images: [
@@ -112,16 +125,20 @@ const subProjects = [
             'images/projects/다운로드_박스/2.jpg',
             'images/projects/다운로드_박스/3.jpg',
         ],
-        skill: ['swift', 'realm', 'ios'],
-        use: [''],
-        environment: [''],
+        skill: ['swift', 'realm'],
+        use: ['swift', 'realm'],
+        environment: ['macos', 'xcode', 'git', 'ios'],
     },
     {
         title: '로그인 박스',
         date: '2017.08.01 - 2017.09.30',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+        - 네이티브 화면 오토레이아웃 개발<br/>
+            - 인앱 연동 개발<br/>
+            - 애드몹 광고 연동 개발 <br/>
+            - Realm 데이터베이스 연동 개발
         `,
         thumbnail: 'images/projects/로그인_박스/1.png',
         images: [
@@ -132,16 +149,20 @@ const subProjects = [
             'images/projects/로그인_박스/5.png',
             'images/projects/로그인_박스/6.png',
         ],
-        skill: ['swift', 'realm', 'ios'],
-        use: [''],
-        environment: [''],
+        skill: ['swift', 'realm', 'firebase'],
+        use: ['swift', 'realm', 'core_data', 'aes256', 'firebase'],
+        environment: ['macos', 'xcode', 'git', 'ios'],
     },
     {
         title: '히든락',
         date: '2016.05.01 - 2016.10.31',
-        order: '개인',
-        description: 'test',
+        order: '졸업작품',
+        description: '',
         task: `
+            - POLL 방식을 사용하여 TCP 세션 관리<br/>
+            - 도어락 제어 명령어 들어올 시 GPIO 신호 전달<br/>
+            - Android, iOS 네이티브 화면 개발<br/>
+            - FCM PUSH 연동 개발
         `,
         thumbnail: 'images/projects/히든락/3.jpg',
         images: [
@@ -163,16 +184,19 @@ const subProjects = [
             'images/projects/히든락/16.png',
             'images/projects/히든락/17.png',
         ],
-        skill: ['spring', 'android', 'ios'],
-        use: [''],
-        environment: [''],
+        skill: ['spring', 'jquery', 'android', 'ios'],
+        use: ['spring', 'java', 'swift', 'c++', 'mybatis', 'bootstrap', 'tcp'],
+        environment: ['raspbian', 'xcode', 'git'],
     },
     {
         title: '노트북지킴이',
         date: '2014.07.01 - 2014.09.30',
-        order: '개인',
-        description: 'test',
+        order: '졸업작품',
+        description: '',
         task: `
+            - Keyboard Hooking 처리<br/>
+            - 네이버 SMTP 메일 서버 연동 개발<br/>
+            - PHP 페이지 개발 및 데이터베이스 연동
         `,
         thumbnail: 'images/projects/노트북지킴이/1.png',
         images: [
@@ -189,15 +213,18 @@ const subProjects = [
             'images/projects/노트북지킴이/11.png',
         ],
         skill: ['c#', 'php', 'smtp'],
-        use: [''],
-        environment: [''],
+        use: ['c#', 'php', 'smtp'],
+        environment: ['windows_7', 'vs2010', 'apache'],
     },
     {
         title: '위기탈출 USB',
         date: '2014.03.01 - 2014.06.30',
-        order: '개인',
-        description: 'test',
+        order: '졸업작품',
+        description: '',
         task: `
+            - PHP 페이지 개발 및 데이터베이스 연동<br/>
+            - API Response XML 파싱 처리<br/>
+            - GCM PUSH 연동 개발
         `,
         thumbnail: 'images/projects/위기탈출_USB/1.png',
         images: [
@@ -205,16 +232,19 @@ const subProjects = [
             'images/projects/위기탈출_USB/2.png',
             'images/projects/위기탈출_USB/3.png',
         ],
-        skill: ['c#'],
-        use: [''],
-        environment: [''],
+        skill: ['c#', 'php', 'android'],
+        use: ['c#', 'php', 'android'],
+        environment: ['windows_7', 'vs2010', 'apache'],
     },
     {
         title: '플레이케이션',
         date: '2013.09.01 - 2013.10.31',
-        order: '개인',
-        description: 'test',
+        order: '팀 과제',
+        description: '',
         task: `
+            - TCP CAsyncSocket 비동기 처리<br/>
+            - 클라이언트 별 Thread 관리<br/>
+            - Ciritical Section 동기화 처리
         `,
         thumbnail: 'images/projects/플레이케이션/1.png',
         images: [
@@ -224,16 +254,18 @@ const subProjects = [
             'images/projects/플레이케이션/4.png',
             'images/projects/플레이케이션/5.png',
         ],
-        skill: ['mfc'],
-        use: [''],
-        environment: [''],
+        skill: ['mfc', 'tcp'],
+        use: ['mfc', 'tcp'],
+        environment: ['windows_7'],
     },
     {
         title: '채팅 프로그램',
         date: '2013.06.01 - 2013.06.30',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - 클라이언트 별 Thread 관리<br/>
+            - Swing 사용하여 GUI 화면 구성
         `,
         thumbnail: 'images/projects/채팅_프로그램/1.png',
         images: [
@@ -241,16 +273,18 @@ const subProjects = [
             'images/projects/채팅_프로그램/2.png',
             'images/projects/채팅_프로그램/3.png',
         ],
-        skill: ['java', 'tcp'],
-        use: [''],
-        environment: [''],
+        skill: ['java', 'swing', 'tcp'],
+        use: ['java', 'swing', 'tcp'],
+        environment: ['windows_7'],
     },
     {
         title: '선생님 몰래 춤추기',
         date: '2011.01.01 - 2011.02.28',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - Windows API 사용<br/>
+            - 더블버퍼링 기법 사용
         `,
         thumbnail: 'images/projects/선생님_몰래_춤추기/1.png',
         images: [
@@ -258,16 +292,20 @@ const subProjects = [
             'images/projects/선생님_몰래_춤추기/2.png',
             'images/projects/선생님_몰래_춤추기/3.png',
         ],
-        skill: ['c++', 'win-api'],
-        use: [''],
-        environment: [''],
+        skill: ['c++', 'windows_api', 'double_buffering'],
+        use: ['c++', 'windows_api', 'double_buffering'],
+        environment: ['windows_7'],
     },
     {
         title: 'HQ Driver',
         date: '2010.10.01 - 2010.10.31',
-        order: '개인',
-        description: 'test',
+        order: '동아리 과제',
+        description: '',
         task: `
+            - 구조체로 데이터 관리<br/>
+            - 플레이어 충돌 처리<br/>
+            - 선택 정렬로 랭킹 정렬<br/>
+            - 파일 입출력 사용하여 데이터 저장
         `,
         thumbnail: 'images/projects/HQ_Driver/2.png',
         images: [
@@ -277,15 +315,18 @@ const subProjects = [
             'images/projects/HQ_Driver/4.png',
         ],
         skill: ['c'],
-        use: [''],
-        environment: [''],
+        use: ['c'],
+        environment: ['windows_7'],
     },
     {
         title: '용12 오목',
         date: '2010.07.01 - 2010.07.31',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - GotoXY 함수 사용<br/>
+            - 오목 알고리즘 적용<br/>
+            - 1P, 2P 기능 구현
         `,
         thumbnail: 'images/projects/용12_오목/2.png',
         images: [
@@ -293,15 +334,17 @@ const subProjects = [
             'images/projects/용12_오목/2.png',
         ],
         skill: ['c'],
-        use: [''],
-        environment: [''],
+        use: ['c'],
+        environment: ['windows_7'],
     },
     {
         title: '용컴타자연습',
         date: '2010.05.01 - 2010.05.31',
         order: '개인',
-        description: 'test',
+        description: '',
         task: `
+            - 문자열 처리 함수 사용<br/>
+            - 시간 함수 사용
         `,
         thumbnail: 'images/projects/용컴타자연습/1.png',
         images: [
@@ -310,7 +353,7 @@ const subProjects = [
             'images/projects/용컴타자연습/3.png',
         ],
         skill: ['c'],
-        use: [''],
-        environment: [''],
+        use: ['c'],
+        environment: ['windows_7'],
     },
 ]

@@ -34,7 +34,7 @@ class Project {
             else if (skill === 'realm') returnHtml += REALM;
             else if (skill === 'php') returnHtml += PHP;
             else if (skill === 'smtp') returnHtml += SMTP;
-            else if (skill === 'win-api') returnHtml += WIN_API;
+            else if (skill === 'windows_api') returnHtml += WINDOWS_API;
             else if (skill === 'swing') returnHtml += SWING;
             else if (skill === 'tcp') returnHtml += TCP;
             else if (skill === 'udp') returnHtml += UDP;
@@ -70,7 +70,12 @@ class Project {
             else if (skill === 'firebase') returnHtml += FIREBASE;            
             else if (skill === 'icloud') returnHtml += ICLOUD;    
             else if (skill === 'aes256') returnHtml += AES256;
-            else if (skill === 'core_image') returnHtml += CORE_IMAGE;                
+            else if (skill === 'core_image') returnHtml += CORE_IMAGE;
+            else if (skill === 'core_data') returnHtml += CORE_DATA;
+            else if (skill === 'raspbian') returnHtml += RASPBIAN;
+            else if (skill === 'apache') returnHtml += APACHE;
+            else if (skill === 'swing') returnHtml += SWING;
+            else if (skill === 'double_buffering') returnHtml += DOUBLE_BUFFERING;            
         }
         return returnHtml;
     }

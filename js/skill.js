@@ -16,9 +16,8 @@ const MFC = '<img src="https://img.shields.io/badge/MFC-05122a?style=flat&logo=V
 const SWIFT = '<img src="https://img.shields.io/badge/Swift-05122a?style=flat&logo=Swift"/>'
 const KOTLIN = '<img src="https://img.shields.io/badge/Kotlin-05122a?style=flat&logo=Kotlin"/>'
 const PHP = '<img src="https://img.shields.io/badge/PHP-05122a?style=flat&logo=PHP"/>'
-const WIN_API = '<img src="https://img.shields.io/badge/WinAPI-05122a?style=flat&logo=Visual Studio"/>'
+const WINDOWS_API = '<img src="https://img.shields.io/badge/Windows_API-05122a?style=flat&logo=Visual Studio"/>'
 const C_LANGUAGE = '<img src="https://img.shields.io/badge/C-05122a?style=flat&logo=Visual Studio"/>'
-const SWING = '<img src="https://img.shields.io/badge/Swing-05122a?style=flat&logo=Java"/>'
 
 // platform
 const ANDROID = '<img src="https://img.shields.io/badge/Android-05122a?style=flat&logo=Android"/>'
@@ -47,7 +46,10 @@ const CANVAS = '<img src="https://img.shields.io/badge/Canvas-05122a?style=flat"
 const LOCALSTORAGE = '<img src="https://img.shields.io/badge/LocalStorage-05122a?style=flat"/>'
 const ICLOUD = '<img src="https://img.shields.io/badge/iCloud-05122a?style=flat&logo=iCloud"/>'
 const AES256 = '<img src="https://img.shields.io/badge/AES256-05122a?style=flat"/>'
+const CORE_DATA = '<img src="https://img.shields.io/badge/Core_Data-05122a?style=flat"/>'
 const CORE_IMAGE = '<img src="https://img.shields.io/badge/Core_Image-05122a?style=flat"/>'
+const SWING = '<img src="https://img.shields.io/badge/Swing-05122a?style=flat"/>'
+const DOUBLE_BUFFERING = '<img src="https://img.shields.io/badge/Double_Buffering-05122a?style=flat"/>'
 
 // source
 const SVN = '<img src="https://img.shields.io/badge/SVN-05122a?style=flat&logo=Stripe"/>'
@@ -65,6 +67,7 @@ const VS2017 = '<img src="https://img.shields.io/badge/Visual_Studio_2017-05122a
 const XCODE = '<img src="https://img.shields.io/badge/Xcode-05122a?style=flat&logo=Xcode"/>'
 const POSTMAN = '<img src="https://img.shields.io/badge/Postman-05122a?style=flat&logo=Postman"/>'
 const WIRESHARK = '<img src="https://img.shields.io/badge/Wireshark-05122a?style=flat&logo=Wireshark"/>'
+const APACHE = '<img src="https://img.shields.io/badge/Apache-05122a?style=flat&logo=Apache"/>'
 
 // os
 const WINDOWS_SERVER_2016 = '<img src="https://img.shields.io/badge/Windows_Server_2016-05122a?style=flat&logo=Windows"/>'
@@ -74,6 +77,8 @@ const CENTOS = '<img src="https://img.shields.io/badge/CentOS-05122a?style=flat&
 const UNIX = '<img src="https://img.shields.io/badge/Unix-05122a?style=flat&logo=HP"/>'
 const MACOS = '<img src="https://img.shields.io/badge/macOS-05122a?style=flat&logo=Apple"/>'
 const AWS = '<img src="https://img.shields.io/badge/AWS-05122a?style=flat&logo=Amazon AWS"/>'
+const RASPBIAN = '<img src="https://img.shields.io/badge/Raspbian-05122a?style=flat&logo=Raspberry Pi"/>'
+
 
 // design
 const BOOTSTRAP = '<img src="https://img.shields.io/badge/Bootstrap-05122a?style=flat&logo=Bootstrap"/>'
