@@ -76,6 +76,7 @@ class Project {
             else if (skill === 'apache') returnHtml += APACHE;
             else if (skill === 'swing') returnHtml += SWING;
             else if (skill === 'double_buffering') returnHtml += DOUBLE_BUFFERING;            
+            else returnHtml += `<img src="https://img.shields.io/badge/${skill}-05122a?style=flat"/>`
         }
         return returnHtml;
     }
