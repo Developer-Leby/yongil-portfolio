@@ -53,8 +53,8 @@ const mainProjects = [
             'images/projects/디지털교과서_노트_기능_웹_포팅_개발/10.png',
             'images/projects/디지털교과서_노트_기능_웹_포팅_개발/11.png',
         ],
-        skill: ['spring boot', 'jquery', 'gulp'],
-        use: ['spring boot', 'jquery'],
+        skill: ['spring', 'jquery', 'gulp'],
+        use: ['spring', 'jquery'],
         environment: ['windows_10', 'postman', 'gulp', 'git'],
     },
     {
