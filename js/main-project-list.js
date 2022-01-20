@@ -183,7 +183,7 @@ const mainProjects = [
             - OCR 데이터 엑셀 export 기능 개발<br/>
             - 카테고리, 필드, 그룹 등 데이터베이스 결과에 따른 동적 필드 개발<br/>
             - WebSocket 사용으로 실시간 문서 상태 변경 처리 개발<br/>
-            - 멀티(MariaDB, MySQL) 데이터베이스 연동 개발<br/>
+            - 멀티(MariaDB, MSSQL) 데이터베이스 연동 개발<br/>
             - 배치 문서 기간에 따른 후처리 개발
         `,
         thumbnail: 'images/projects/법원문서_OCR_뷰어_및_관리자_페이지_개발/3.png',
