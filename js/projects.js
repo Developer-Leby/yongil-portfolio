@@ -3,6 +3,8 @@ class Project {
         this.type = '';
         this.index = 0;
         this.swiper = null;
+        this.mainLength = 0;
+        this.subLength = 0;
     }
 
     getSkillTags(skills) {
@@ -121,7 +123,7 @@ class Project {
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="${type}Modal${i}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal" id="${type}Modal${i}">
                     <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -161,16 +163,22 @@ class Project {
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                             </div>
-                        </div>
-                    </div>
+
+                            <div class="modal-footer pt-4 pb-4">
+                                <span class="prev-button btn btn-primary">이전 프로젝트</span>
+                                <span class="next-button btn btn-primary float-right">다음 프로젝트</span>
+                            </div>      
+                        </div>                      
                     </div>
                 </div>
             `
             html += template
         }
         if (type === 'main') {
+            this.mainLength = projects.length;
             $('#main-projects').html(html);
         } else if (type === 'sub') {
+            this.subLength = projects.length;
             $('#sub-projects').html(html);
         }        
     }
@@ -181,10 +189,18 @@ class Project {
             self.showDetailAction(e, self)            
         });
         $('.modal-close').on('click', function(e) {
-            self.closeModalAction(e, self);
+            self.closeModalAction();
         });
         $('.swiper-lazy').on('click', function(e) {
             // self.popupImage('images/projects/ABL생명_화상_상담_시스템_구축/6.png')
+        });
+        $('.prev-button').on('click', function(e) {
+            self.index = self.index - 1;
+            self.showModal(self.type, self.index, (self.type === 'main') ? self.mainLength : self.subLength);
+        });
+        $('.next-button').on('click', function(e) {
+            self.index = self.index + 1;
+            self.showModal(self.type, self.index, (self.type === 'main') ? self.mainLength : self.subLength);
         });
     }
 
@@ -218,12 +234,20 @@ class Project {
 
     showDetailAction(e, self) {
         self.type = $(e.currentTarget).attr('data-type');
-        self.index = Number($(e.currentTarget).attr('data-index'));
-        $(`#${self.type}Modal${self.index}`).modal('toggle');
+        self.index = Number($(e.currentTarget).attr('data-index'));        
+        self.showModal(self.type, self.index, (self.type === 'main') ? self.mainLength : self.subLength);
+    }
+
+    showModal(type, index, length) {
+        $('.modal').modal('hide');
+        console.log(index, length);
+        index == 0 ? $('.prev-button').hide() : $('.prev-button').show();        
+        index == length - 1 ? $('.next-button').hide() : $('.next-button').show();
+        $(`#${type}Modal${index}`).modal('show');
     }
  
-    closeModalAction(e, self) {
-        $(`#${self.type}Modal${self.index}`).modal('toggle');
+    closeModalAction() {
+        $('.modal').modal('hide');
     }
 
     popupImage(url) {
