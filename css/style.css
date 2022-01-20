@@ -9069,7 +9069,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 0 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9774,4 +9774,8 @@ textarea.form-control {
   background-color: #da0f47;
 }
 
-
+@media (max-width: 767.98px) {
+  .small-text {
+    font-size: 13.5px;
+  } 
+}

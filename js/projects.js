@@ -259,7 +259,7 @@ $(function() {
     let project = new Project();
     project.show();
 
-    $(window).on('resize', () => {
-        project.show();
-    });
+//     $(window).on('resize', () => {
+//         project.show();
+//     });
 });
